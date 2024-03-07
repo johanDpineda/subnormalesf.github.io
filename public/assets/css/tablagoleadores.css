@@ -1,0 +1,524 @@
+
+
+.contenedorgoleadorestorneo{
+    background-color: rgb(7 5 8);
+    padding: 53px 0px;
+}
+
+.contenedorligahome{
+    background-color: transparent;
+
+}
+
+@media (max-width: 767px)
+{
+    .contenedorgoleadores {
+        padding-top: 60px;
+}
+}
+
+
+.listagoleadores{
+    width: 100%;
+    max-width: 1296px;
+    margin: 0px auto;
+    /* min-height: 600px; */
+    position: relative;
+
+}
+
+@media (max-width: 900px)
+{
+    .listagoleadores {
+    padding: 10px;
+}
+}
+
+
+
+@media (max-width: 1296px){
+    .listagoleadores {
+    padding: 10px;
+}
+}
+
+
+.bannerfondo{
+    width: 100%;
+    /* margin: 0px auto; */
+    /* min-height: 600px; */
+    position: relative;
+    background-image: url(../img/fondo_mifutbol.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background: azure;*/
+}
+
+@media (max-width: 900px)
+{
+    .bannerfondo {
+    padding: 10px;
+}
+}
+
+
+
+@media (max-width: 1296px){
+    .bannerfondo {
+    padding: 10px;
+}
+}
+
+
+
+
+.listagoleadoresdsd{
+    width: 100%;
+    max-width: 1296px;
+    margin: 0px auto;
+    /* min-height: 600px; */
+    position: relative;
+
+
+
+
+}
+
+@media (max-width: 900px)
+{
+    .listagoleadoresdsd {
+    padding: 10px;
+}
+}
+
+
+
+@media (max-width: 1296px){
+    .listagoleadoresdsd {
+    padding: 10px;
+}
+}
+
+
+.textogoleadores {
+    font-weight: var(--text-header-font-weight);
+    /*text-transform: uppercase;*/
+    margin: 10px 0px;
+    font-family: "abel";
+    font-variation-settings: "wght" 800, "wdth" 440;
+    font-size: 26px;
+    line-height: 100%;
+}
+
+@media (min-width: 767px){
+    .textogoleadores {
+    font-size: 32px;
+}
+}
+
+.tabladegoleadoresliga{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tabladeposiconliga{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tablagolesliga{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 4px;
+
+
+}
+
+.barrainfoligagoles{
+    width: 20px;
+}
+
+.barrainfoligagoles:nth-child(2n+1) {
+    background: rgb(212 255 0);
+}
+
+
+
+
+.barrainfoligaposiciones:nth-child(2n+1) {
+    background: transparent;
+}
+
+.barrainfoligaposicionesdd:nth-child(2n+1) {
+    background: transparent;
+}
+.posiciongoleadores{
+    font-weight: bold;
+    /*padding: 16px 10px !important;*/
+    padding-top: 0.88rem !important;
+    padding-bottom: 4px!important;
+    background: rgb(212 255 0);
+    color: rgb(0 , 0 , 0)  !important;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+   .posiciongoleadores {
+    padding: 8px 10px;
+}
+}
+
+
+.posiciontabla{
+    font-weight: bold;
+    padding: 16px 10px !important;
+    background: rgb(212 255 0);
+    color: rgb(8, 8, 8)  !important;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+   .posiciontabla {
+    padding: 8px 6px !important;
+}
+}
+
+.posiciontablaff{
+    font-weight: bold;
+    padding: 16px 10px !important;
+    background: rgb(212 255 0);
+    color: rgb(0, 0, 0)  !important;
+    text-align: center;
+}
+
+.estilobarrainfo{
+    display: block;
+    font-family: "abel";
+    font-size: 18px;
+    line-height: 100%;
+}
+
+@media (max-width: 767px){
+    .estilobarrainfo{
+        display: block;
+        font-family: "abel";
+        font-size: 14px;
+        line-height: 100%;
+    }
+}
+
+
+.estilobarrainforf{
+    display: block;
+    font-family: "abel";
+    font-size: 18px;
+    line-height: 100%;
+    margin-left: 20px;
+}
+
+@media (max-width: 767px){
+    .estilobarrainforf{
+        display: block;
+        font-family: "abel";
+        font-size: 14px;
+        line-height: 100%;
+        margin-left: 23px;
+    }
+}
+
+
+
+.clasegeneralgoles{
+    font-weight: bold;
+    padding-top: 0.88rem !important;
+    padding-bottom: 4px!important;
+    /*padding: 16px 10px  !important;*/
+    background: rgb(212 255 0);
+    color: rgb(0 , 0 , 0)  !important;
+    text-align: left;
+}
+
+@media (max-width: 767px){
+    .tabladegoleadores table th:nth-child(2) {
+    display: none;
+}
+}
+
+
+
+@media (max-width: 767px){
+    .clasegeneralgoles {
+    padding: 8px 10px;
+}
+}
+
+
+
+
+
+
+.infogoleadorestorneo:nth-child(2n+1) {
+    background: rgb(0, 0, 0);
+}
+
+.infogoleadorestorneo:nth-child(2n) {
+    background: rgb(0, 0, 0);
+}
+
+.posiciongoleador{
+    padding: 8px 10px;
+    vertical-align: middle;
+    color: rgb(253, 253, 253);
+    text-align: center;
+
+}
+
+@media (max-width: 767px){
+    .posiciongoleador {
+    padding: 0px 10px;
+}
+}
+
+
+.posiciongoleadordsd{
+    padding: 8px 10px;
+    vertical-align: middle;
+    color: rgb(253, 253, 253);
+    text-align: center;
+
+}
+
+@media (max-width: 767px){
+    .posiciongoleadordsd {
+    padding: 0px 10px;
+}
+}
+
+
+
+
+.tabladegoleadores table tr td p {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.vallasmenos table tr td p {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+
+.numbergoleador{
+    display: block;
+    font-family: "abel";
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: -2px;
+}
+
+.fotogoleador {
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 54px;
+    padding: 0px;
+}
+
+@media (max-width: 767px){
+   .tabladegoleadores table tr td:nth-child(2) {
+    display: none;
+}
+}
+
+
+
+
+
+
+@media (max-width: 767px){
+    .fotogoleador {
+    padding: 0px 10px;
+}
+}
+
+
+
+
+
+.avatarjugador{
+    position: relative;
+    width: 54px;
+    height: 54px;
+
+    border-radius: 0px;
+    overflow: hidden;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.fotojugadorgoleadores{
+    position: absolute;
+
+}
+.fotogoleador a{
+    display: block;
+}
+
+.fotjugador{
+    height: auto;
+    max-width: 94%;
+    animation-duration: 300ms;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    /* margin-top: 30px; */
+}
+
+.sinfotjugador{
+    height: auto;
+    max-width: 94%;
+    animation-duration: 300ms;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    margin-top: 2px;
+}
+
+.namegoleador{
+    padding: 8px 10px;
+    vertical-align: middle;
+    color: rgb(253, 253, 253);
+    text-align: left;
+}
+
+@media (max-width: 767px){
+    .namegoleador {
+    padding: 0px 10px;
+}
+}
+
+
+
+
+.namegoleador a {
+    display: block;
+}
+
+.jugadorname{
+    display: block;
+    font-family: "abel";
+    font-size: 14px;
+    line-height: 120%;
+    color: white;
+    margin-bottom: -2px;
+}
+
+.contengeneral{
+    padding: 8px 10px;
+    vertical-align: middle;
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+
+@media (max-width: 767px){
+   .contengeneral {
+    padding: 0px 10px;
+}
+}
+
+.contengeneral a {
+    display: block;
+}
+
+
+.contengeneralsdsd{
+    padding: 8px 10px;
+    vertical-align: middle;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    border-bottom-right-radius: 3px;
+}
+
+@media (max-width: 767px){
+   .contengeneralsdsd {
+    padding: 0px 10px;
+}
+}
+
+.contengeneralsdsd a {
+    display: block;
+}
+
+
+.infoequipo{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: auto;
+    min-height: auto;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+
+.fotoequipo
+{
+    background-position: 0px -100px;
+    display: block;
+    background-position: 0px 0px;
+
+}
+
+.torneofotoclub{
+    width: 40px;
+    height: 39px;
+}
+
+@media (max-width: 767px){
+    .torneofotoclub{
+        width: 29px;
+        height: 28px;
+    }
+ }
+
+
+
+.infoequipo > p {
+    margin-left: 5px;
+}
+
+
+.clubnombre{
+    display: block;
+    font-family: "abel";
+    font-size: 10px;
+    line-height: 120%;
+    margin-bottom: -2px;
+    color: white;
+}
+
+.totalgoles{
+    display: block;
+    font-family: "abel";
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: -2px;
+}
+
+
+.ligaposition{
+    padding: 8px 10px;
+    vertical-align: middle;
+    color: rgb(253, 253, 253);
+    text-align: left;
+}
+
+

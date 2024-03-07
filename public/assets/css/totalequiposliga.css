@@ -1,0 +1,240 @@
+.tituloequiposliga{
+    text-align: center;
+    font-family: 'abel';
+    font-size: 27px;
+    color: #000;
+  
+}
+
+.ligaequipos{
+    background-color: #353535;
+    width: 100%;
+
+
+}
+
+
+
+.cardequipos{
+    width: 40%;
+}
+
+.cardinfoequipos{
+    width: 40%;
+}
+
+.dsdsd{
+    box-sizing: border-box;
+    width: 100%;
+    /*height: 15rem;*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.2rem;
+    /*outline: 0.1rem solid #cef517;*/
+    border-radius: 0.8rem;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: #0E2940;
+    transition: box-shadow 0.3s ease; /* Agrega una transición suave al sombreado */
+    box-shadow: 12px 19px 62px 0px rgb(14 41 64 / 56%);
+}
+
+
+
+@media (max-width:767px) {
+    .dsdsd{
+        box-sizing: border-box;
+        width: 22.5rem;
+        /*height: 21rem;*/
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1.2rem;
+        /* outline: 0.1rem solid #cef517; */
+        border-radius: 0.8rem;
+        text-decoration: none;
+        overflow: hidden;
+    }
+
+    .diseñomovilnoticias{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  }
+
+  .dsdsd:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.4rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(284.38deg,#8d8d8d,#8d8d8d);
+    z-index: 10;
+    border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.dsdsd:hover{
+
+    color: white !important;
+
+      /* Sombra al pasar el mouse */
+      box-shadow: 12px 19px 62px 0px rgb(14 41 64 / 85%);
+}
+
+
+.statperfilarbitro {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.partidosarbitros {
+    width: 100%;
+
+    background-color: transparent;
+}
+
+.custom-td {
+    padding: 0.75rem;
+    vertical-align: top;
+
+}
+
+.custom-tbody + .custom-tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+
+     /* Agrega estilos responsivos */
+     @media (max-width: 767px) {
+        .partidosarbitros {
+            font-size: 14px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+
+        }
+
+
+        .custom-td {
+            padding: 0.5rem; /* Ajusta el espacio interno para pantallas pequeñas */
+        }
+    }
+
+    .modal-contentpefil {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+        width: 82%;
+        max-width: 800px;
+        border: 1px solid #d3fe00;
+        box-shadow: 12px 19px 62px 0px rgb(212 255 0 / 15%);
+    }
+
+    @media (max-width: 768px){
+        .modal-contentpefil {
+            width: 100% !important;
+            padding: 0px !important;
+        }
+    }
+
+
+    .descripcionarbitro{
+
+        position: relative;
+        background: rgb(0 0 0);
+
+    }
+
+    @media (max-width: 767px){
+      .descripcionarbitro {
+         display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        padding: 0rem 0rem !important;
+    }
+    }
+    .marcadoresarbitro {
+        display: block;
+        font-size: 1em;
+        color: white;
+        line-height: 1.5;
+        display: contents;
+    }
+
+    @media (max-width: 767px){
+        .marcadoresarbitro {
+            display: block;
+            font-size: 1.2em;
+            color: white;
+            line-height: 1.5;
+            display: contents;
+        }
+      }
+
+    .nameclubarbitro {
+        font-size: 0.8em;
+        color: rgb(255 255 255);
+        line-height: 1.5;
+        text-transform: uppercase;
+         display: contents;
+    }
+
+    .table_bodyarbitro{
+        width: 100%;
+        max-height: calc(89% - 1.6rem);
+        background-color: transparent;
+        border-radius: .6rem;
+        overflow: auto;
+        overflow: overlay;
+    }
+
+    :table_bodyarbitro(2n+1){
+
+        background-color: #ad2525;
+
+    }
+
+    @media (max-width: 767px){
+
+        .table_bodyarbitro{
+            width: 100%;
+            max-height: calc(89% - 1.6rem);
+            background-color: transparent !important;
+            border-radius: .6rem;
+            overflow: auto;
+            overflow: overlay;
+        }
+
+        .nameclubarbitro {
+            font-size: 0.8em;
+            color: rgb(255 255 255);
+            line-height: 1.5;
+            text-transform: uppercase;
+            display: contents;
+        }
+
+        }
+
+
+    .contendorcancha{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    @media (max-width: 767px){
+
+        .paginacionequipo{
+            margin: 5px;
+        }
+
+        }
+
